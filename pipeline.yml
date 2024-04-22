@@ -1,2 +1,2 @@
 steps:
-- command: echo "This executes if the test passes with branch"
+- command: echo "This executes if the test passes with branch 2"
