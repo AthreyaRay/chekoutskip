@@ -1,2 +1,2 @@
 steps:
-- command: echo "This executes if the test passes with branch 9 and tag 5.0"
+- command: echo "This executes if the test passes with branch 220 and tag 6.0"
