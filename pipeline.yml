@@ -3,6 +3,7 @@ steps:
 - command: exit 1
 retry:
   automatic:
-  - limit: 3
-    exit_status: 1
+  - exit_status: 1
+    limit: 3
+
 
