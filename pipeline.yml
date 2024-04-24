@@ -1,2 +1,8 @@
 steps:
 - command: echo "This executes if the test passes with branch 1999 and tag 5.0"
+- command: exit 1
+retry:
+  automatic:
+  - limit: 3
+    exit_status: 1
+
